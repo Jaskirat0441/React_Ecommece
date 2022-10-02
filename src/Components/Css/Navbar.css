@@ -1,0 +1,83 @@
+.navbar-light {
+  /* position: absolute; */
+  width: 100vw;
+  height: 58px;
+  display: flex;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+}
+.navbar-brand {
+  width: 187px;
+
+  height: 58px;
+
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+  margin-top: 13px;
+  margin-left: 23px;
+  letter-spacing: 0.1px;
+
+  /* text-color */
+
+  color: #252b42;
+}
+.navbar_data {
+  width: 1155px;
+  height: 58px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-pages-items {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 15px;
+  width: 361px;
+  list-style-type: none;
+  height: 25px;
+  top: calc(50% - 25px / 2);
+
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.2px;
+}
+.nav-link {
+  text-decoration: none;
+  list-style-type: none;
+  color: #737373;
+}
+
+.navbar-login_data {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 324px;
+  height: 54px;
+  color: #23a6f0;
+  /* left: calc(50% - 324px / 2 + 416.5px); */
+  /* top: calc(50% - 54px / 2); */
+  list-style-type: none;
+  justify-content: space-evenly;
+
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+
+  text-align: center;
+  letter-spacing: 0.2px;
+
+  /* primary-color */
+}
+.nav-link_login {
+  color: #23a6f0;
+  text-decoration: none;
+  list-style-type: none;
+  text-align: center;
+}

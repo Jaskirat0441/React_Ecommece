@@ -1,0 +1,102 @@
+.footer_container {
+  width: 100vw;
+  background: #ffffff;
+  font-family: "Montserrat";
+  font-style: normal;
+}
+.footer_top {
+  height: 100px;
+  width: 1050px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  /* padding: 40px 0px; */
+}
+.footer_top_name {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+  color: #252b42;
+}
+
+.footer_top-social_icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+.hr_line{
+width: 1057px;
+height: 0px;
+border: 1px solid #E6E6E6;
+}
+
+/* middle  */
+
+.footer_middle_container {
+  width: 1050px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  /* flex-direction: row; */
+}
+.footer_middle_heading {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  color: #252b42;
+}
+.company_info_links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+.company_info_links a {
+  list-style-type: none;
+  text-decoration: none;
+  color: #737373;
+}
+.input_groups_subscribe {
+  height: 58px;
+}
+.email_input {
+  background: #f9f9f9;
+  border: 1px solid #e6e6e6;
+  padding: 16px;
+}
+.subscribe_btn {
+  background: #23a6f0;
+  border: 1px solid #e6e6e6;
+  color: #ffffff;
+  border-radius: 0px 5px 5px 0px;
+  padding: 16px;
+  cursor: pointer;
+}
+.subscribe_letter {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+
+/* footer last */
+.footer_last {
+  text-align: center;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #737373;
+  margin-top: 40px;
+}
